@@ -28,7 +28,7 @@ one.
 | # | Title | Skills | Status |
 |---|---|---|---|
 | TICKET-000 | SSH Connection Refused on web-01 (real incident) | SSH setup, systemd, live troubleshooting | Completed |
-| TICKET-001 | Disk Full Incident | Storage, logrotate | Not started |
+| TICKET-001 | Disk Full Incident | Storage, logrotate | Completed |
 | TICKET-002 | Silent Cron Failure | Bash, error handling | Not started |
 | TICKET-003 | SSH Brute-Force Hardening | Security, fail2ban | Not started |
 | TICKET-004 | Service Fails on Boot | systemd, journalctl | Not started |
