@@ -1,4 +1,4 @@
-# TICKET-00X: SSH Connection Refused on web-01
+# TICKET-000: SSH Connection Refused on web-01
 
 **Status:** Resolved
 **Environment:** Ubuntu 26.04 LTS, VirtualBox VM, connecting from a WSL (Ubuntu) host on Windows

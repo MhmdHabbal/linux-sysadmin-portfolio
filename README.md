@@ -9,7 +9,7 @@ one.
 ## Skills demonstrated so far
 - [ ] User & permission management
 - [ ] Systemd service management
-- [ ] Disk/storage troubleshooting
+- [x] Disk/storage troubleshooting
 - [ ] Networking & firewall configuration
 - [ ] SSH hardening
 - [ ] Bash scripting & automation
