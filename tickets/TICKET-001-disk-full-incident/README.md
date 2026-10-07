@@ -1,8 +1,8 @@
 # TICKET-001: Disk Full Incident on web-01
 
-**Status:** Resolved
-**Environment:** Ubuntu 26.04 LTS, VirtualBox VM, 2 vCPU / 2GB RAM, connecting from a WSL (Ubuntu) host on Windows
-**Date:** 10/4/2026
+**Status:** Resolved  
+**Environment:** Ubuntu 26.04 LTS, VirtualBox VM, 2 vCPU / 2GB RAM, connecting from a WSL (Ubuntu) host on Windows  
+**Date:** 10/4/2026  
 **Skills practiced:** disk troubleshooting, logrotate, incident response
 
 ## 1. Problem Statement
