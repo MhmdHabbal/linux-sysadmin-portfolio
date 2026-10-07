@@ -1,13 +1,13 @@
 # TICKET-000: SSH Connection Refused on web-01
 
-**Status:** Resolved
-**Environment:** Ubuntu 26.04 LTS, VirtualBox VM, connecting from a WSL (Ubuntu) host on Windows
-**Date:** 9/27/2026
+**Status:** Resolved  
+**Environment:** Ubuntu 26.04 LTS, VirtualBox VM, connecting from a WSL (Ubuntu) host on Windows  
+**Date:** 9/27/2026  
 **Skills practiced:** SSH setup, systemd, real-world troubleshooting (unscripted)
 
 ## 1. Problem Statement
 While setting up remote access to web-01 for the first time, connecting
-from my WSL host failed with:
+from my WSL host failed with:  
 `ssh: connect to host 192.168.56.103 port 22: Connection refused`
 
 ## 2. Investigation
