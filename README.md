@@ -12,7 +12,7 @@ one.
 - [x] Disk/storage troubleshooting
 - [ ] Networking & firewall configuration
 - [ ] SSH hardening
-- [ ] Bash scripting & automation
+- [x] Bash scripting & automation
 - [ ] Web server deployment (Nginx)
 - [ ] Database administration basics
 - [ ] File sharing (NFS)
