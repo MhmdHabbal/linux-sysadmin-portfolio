@@ -11,7 +11,7 @@ one.
 - [ ] Systemd service management
 - [x] Disk/storage troubleshooting
 - [ ] Networking & firewall configuration
-- [ ] SSH hardening
+- [x] SSH hardening
 - [x] Bash scripting & automation
 - [ ] Web server deployment (Nginx)
 - [ ] Database administration basics
@@ -28,9 +28,9 @@ one.
 | # | Title | Skills | Status |
 |---|---|---|---|
 | TICKET-000 | SSH Connection Refused on web-01 (real incident) | SSH setup, systemd, live troubleshooting | Completed |
-| TICKET-001 | Disk Full Incident | Storage, logrotate | Completed |
+| TICKET-001 | Disk Full Incident | Storage, logrotate | Completed 
 | TICKET-002 | Silent Cron Failure | Bash, error handling | Completed |
-| TICKET-003 | SSH Brute-Force Hardening | Security, fail2ban | Not started |
+| TICKET-003 | SSH Brute-Force Hardening | Security, fail2ban | Completed |
 | TICKET-004 | Service Fails on Boot | systemd, journalctl | Not started |
 | TICKET-005 | Firewall Blocks Traffic | Networking, ufw | Not started |
 | TICKET-006 | Internal DNS Setup | DNS, dnsmasq | Not started |
