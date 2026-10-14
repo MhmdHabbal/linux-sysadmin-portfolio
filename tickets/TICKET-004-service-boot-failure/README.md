@@ -2,7 +2,7 @@
 
 **Status:** Resolved  
 **Environment:** Ubuntu 26.04 LTS, VirtualBox VM, 2 vCPU / 2GB RAM, connecting from a WSL (Ubuntu) host on Windows  
-**Date:** 10//2026  
+**Date:** 10/14/2026  
 **Skills practiced:** systemd, journalctl, incident response
 
 ## 1. Problem Statement
