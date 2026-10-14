@@ -43,7 +43,7 @@ Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
 </pre>
 
 ## 5. Verification
-`systemctl status nginx`
+`$systemctl status nginx`
 
 <pre>
 ● nginx.service - A high performance web server and a reverse proxy server
