@@ -10,7 +10,7 @@ one.
 - [ ] User & permission management
 - [x] Systemd service management
 - [x] Disk/storage troubleshooting
-- [ ] Networking & firewall configuration
+- [x] Networking & firewall configuration
 - [x] SSH hardening
 - [x] Bash scripting & automation
 - [ ] Web server deployment (Nginx)
@@ -32,7 +32,7 @@ one.
 | TICKET-002 | Silent Cron Failure | Bash, error handling | Completed |
 | TICKET-003 | SSH Brute-Force Hardening | Security, fail2ban | Completed |
 | TICKET-004 | Service Fails on Boot | systemd, journalctl | Completed |
-| TICKET-005 | Firewall Blocks Traffic | Networking, ufw | Not started |
+| TICKET-005 | Firewall Blocks Traffic | Networking, ufw | Completed |
 | TICKET-006 | Internal DNS Setup | DNS, dnsmasq | Not started |
 | TICKET-007 | Backup Rotation | Bash automation | Not started |
 | TICKET-008 | User Onboarding Script | Bash, user management | Not started |
