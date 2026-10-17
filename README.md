@@ -33,7 +33,7 @@ one.
 | TICKET-003 | SSH Brute-Force Hardening | Security, fail2ban | Completed |
 | TICKET-004 | Service Fails on Boot | systemd, journalctl | Completed |
 | TICKET-005 | Firewall Blocks Traffic | Networking, ufw | Completed |
-| TICKET-006 | Internal DNS Setup | DNS, dnsmasq | Not started |
+| TICKET-006 | Internal DNS Setup | DNS, dnsmasq | Completed |
 | TICKET-007 | Backup Rotation | Bash automation | Not started |
 | TICKET-008 | User Onboarding Script | Bash, user management | Not started |
 | TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Not started |
