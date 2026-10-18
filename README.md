@@ -34,7 +34,7 @@ one.
 | TICKET-004 | Service Fails on Boot | systemd, journalctl | Completed |
 | TICKET-005 | Firewall Blocks Traffic | Networking, ufw | Completed |
 | TICKET-006 | Internal DNS Setup | DNS, dnsmasq | Completed |
-| TICKET-007 | Backup Rotation | Bash automation | Not started |
+| TICKET-007 | Backup Rotation | Bash automation | Completed |
 | TICKET-008 | User Onboarding Script | Bash, user management | Not started |
 | TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Not started |
 | TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Not started |
