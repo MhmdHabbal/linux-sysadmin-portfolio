@@ -7,7 +7,7 @@ environment, with full documentation of the investigation and fix for each
 one.
 
 ## Skills demonstrated so far
-- [ ] User & permission management
+- [x] User & permission management
 - [x] Systemd service management
 - [x] Disk/storage troubleshooting
 - [x] Networking & firewall configuration
@@ -35,7 +35,7 @@ one.
 | TICKET-005 | Firewall Blocks Traffic | Networking, ufw | Completed |
 | TICKET-006 | Internal DNS Setup | DNS, dnsmasq | Completed |
 | TICKET-007 | Backup Rotation | Bash automation | Completed |
-| TICKET-008 | User Onboarding Script | Bash, user management | Not started |
+| TICKET-008 | User Onboarding Script | Bash, user management | Completed |
 | TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Not started |
 | TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Not started |
 | TICKET-011 | NFS File Share | File sharing | Not started |
