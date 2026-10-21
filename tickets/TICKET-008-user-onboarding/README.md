@@ -23,6 +23,20 @@ Wrote `/opt/scripts/new_user.sh`, which creates the account, sets up its
 home directory and SSH key file with correct ownership and permissions,
 and adds it to the `sudo` group in one command.
 
+<pre>
+    #!/bin/bash
+    set -euo pipefail
+    USERNAME=$1
+    useradd -m -s /bin/bash "$USERNAME"
+    mkdir -p /home/$USERNAME/.ssh
+    echo "PUBLIC_KEY_HERE" > /home/$USERNAME/.ssh/authorized_keys
+    chown -R $USERNAME:$USERNAME /home/$USERNAME/.ssh
+    chmod 700 /home/$USERNAME/.ssh
+    chmod 600 /home/$USERNAME/.ssh/authorized_keys
+    usermod -aG sudo "$USERNAME"
+    echo "User $USERNAME created."
+</pre>
+
 ## 5. Verification
 
 Output of `sudo /opt/scripts/new_user.sh testuser`:
