@@ -13,7 +13,7 @@ one.
 - [x] Networking & firewall configuration
 - [x] SSH hardening
 - [x] Bash scripting & automation
-- [ ] Web server deployment (Nginx)
+- [x] Web server deployment (Nginx)
 - [ ] Database administration basics
 - [ ] File sharing (NFS)
 - [ ] Monitoring & alerting
@@ -36,7 +36,7 @@ one.
 | TICKET-006 | Internal DNS Setup | DNS, dnsmasq | Completed |
 | TICKET-007 | Backup Rotation | Bash automation | Completed |
 | TICKET-008 | User Onboarding Script | Bash, user management | Completed |
-| TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Not started |
+| TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Completed |
 | TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Not started |
 | TICKET-011 | NFS File Share | File sharing | Not started |
 | TICKET-012 | Monitoring Stack | Prometheus/Grafana | Not started |
