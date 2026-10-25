@@ -14,7 +14,7 @@ one.
 - [x] SSH hardening
 - [x] Bash scripting & automation
 - [x] Web server deployment (Nginx)
-- [ ] Database administration basics
+- [x] Database administration basics
 - [ ] File sharing (NFS)
 - [ ] Monitoring & alerting
 - [ ] Security auditing
@@ -37,7 +37,7 @@ one.
 | TICKET-007 | Backup Rotation | Bash automation | Completed |
 | TICKET-008 | User Onboarding Script | Bash, user management | Completed |
 | TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Completed |
-| TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Not started |
+| TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Completed |
 | TICKET-011 | NFS File Share | File sharing | Not started |
 | TICKET-012 | Monitoring Stack | Prometheus/Grafana | Not started |
 | TICKET-013 | Security Audit | Lynis hardening | Not started |
