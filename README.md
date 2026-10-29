@@ -15,7 +15,7 @@ one.
 - [x] Bash scripting & automation
 - [x] Web server deployment (Nginx)
 - [x] Database administration basics
-- [ ] File sharing (NFS)
+- [x] File sharing (NFS)
 - [ ] Monitoring & alerting
 - [ ] Security auditing
 - [ ] Log centralization
@@ -38,7 +38,7 @@ one.
 | TICKET-008 | User Onboarding Script | Bash, user management | Completed |
 | TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Completed |
 | TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Completed |
-| TICKET-011 | NFS File Share | File sharing | Not started |
+| TICKET-011 | NFS File Share | File sharing | Completed |
 | TICKET-012 | Monitoring Stack | Prometheus/Grafana | Not started |
 | TICKET-013 | Security Audit | Lynis hardening | Not started |
 | TICKET-014 | Log Centralization | rsyslog | Not started |
