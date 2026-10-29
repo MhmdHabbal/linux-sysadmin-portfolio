@@ -32,7 +32,7 @@ $sudo systemctl restart nfs-kernel-server
 Output of `$df -h | grep shared` from client-01:
 
 <pre>
-<web-01-IP>:/srv/shared   25G   12G   12G  50% /mnt/shared
+WEB-01-IP:/srv/shared   25G   12G   12G  50% /mnt/shared
 </pre>
 
 I've created a test folder on client_01 and I've confirmed that it is appearing on web-01(server).
