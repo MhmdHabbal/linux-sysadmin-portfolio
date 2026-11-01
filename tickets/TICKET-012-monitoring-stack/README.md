@@ -36,6 +36,9 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2        25G   15G  8.6G  64% /
 </pre>
 
+<img width="960" height="355" alt="Screenshot 2026-11-01 183626" src="https://github.com/user-attachments/assets/08ae260c-0e6d-4af9-888e-84ebd0856d4e" />
+
+
 Similar scenario to TICKET-001:
 <pre>
 $SIZE=$(df --output=size -B1 / | tail -1 | tr -d ' ')
@@ -54,6 +57,9 @@ Filesystem      Size  Used Avail Use% Mounted on
 </pre>
 
 Got an alert on Grafana as it should:
+
+<img width="1005" height="333" alt="Screenshot 2026-11-01 181707" src="https://github.com/user-attachments/assets/025085b9-72f8-43ec-b394-7b7618ad8702" />
+<img width="961" height="368" alt="Screenshot 2026-11-01 181729" src="https://github.com/user-attachments/assets/84f96a50-6637-4565-bdc6-86dcee232f00" />
 
 
 ## 6. Prevention
