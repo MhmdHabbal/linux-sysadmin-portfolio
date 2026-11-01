@@ -16,7 +16,7 @@ one.
 - [x] Web server deployment (Nginx)
 - [x] Database administration basics
 - [x] File sharing (NFS)
-- [ ] Monitoring & alerting
+- [x] Monitoring & alerting
 - [ ] Security auditing
 - [ ] Log centralization
 - [ ] Ansible automation
@@ -39,7 +39,7 @@ one.
 | TICKET-009 | Nginx + TLS Deployment | Web server, TLS | Completed |
 | TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Completed |
 | TICKET-011 | NFS File Share | File sharing | Completed |
-| TICKET-012 | Monitoring Stack | Prometheus/Grafana | Not started |
+| TICKET-012 | Monitoring Stack | Prometheus/Grafana | Completed |
 | TICKET-013 | Security Audit | Lynis hardening | Not started |
 | TICKET-014 | Log Centralization | rsyslog | Not started |
 | TICKET-015 | (reserved / optional deep-dive) | — | Not started |
