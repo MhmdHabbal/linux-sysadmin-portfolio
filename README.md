@@ -17,7 +17,7 @@ one.
 - [x] Database administration basics
 - [x] File sharing (NFS)
 - [x] Monitoring & alerting
-- [ ] Security auditing
+- [x] Security auditing
 - [ ] Log centralization
 - [ ] Ansible automation
 - [ ] Docker containers
