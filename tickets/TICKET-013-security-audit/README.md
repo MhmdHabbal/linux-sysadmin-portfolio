@@ -2,7 +2,7 @@
 
 **Status:** Resolved  
 **Environment:** Ubuntu 26.04 LTS, VirtualBox VM, 2 vCPU / 2GB RAM, connecting from a WSL (Ubuntu) host on Windows  
-**Date:** 10/9/2026  
+**Date:** 10/-/2026  
 **Skills practiced:** Prometheus, Grafana, monitoring, VM
 
 ## 1. Problem Statement
@@ -29,28 +29,31 @@ Addressed 5 findings from the audit one at a time (as shown in the `Investigatio
 
 First one:
 <pre>
-$grub-mkpasswd-pbkdf2               --> To create a secure PBKDF2 hash of my password
-$sudo nano /etc/grub.d/40_custom    --> Adding the password to GRUB Custom Rules
-				    |
-				    --> appending the following lines to the bottom of the file
-				    |
-				    --> set superusers="MY-USERNAME"
-				        password_pbkdf2 "MY-USERNAME grub.pkdf2.sha512.10000.MY_ACTUAL_HASH_STRING
-$sudo nano /etc/grub.d/10_linux     --> Prevent Password Prompts on Normal Boots
-				    |
-                                    --> Adding `--unrestricted` inside the line (echo "menuentry '$(echo "$os" | grub_quote)' ${CLASS} \$menuentry_id_option ...")
+$grub-mkpasswd-pbkdf2               # To create a secure PBKDF2 hash of my password
 
-					right before `${CLASS}`
-$sudo update-grub                   --> To apply changes
+$sudo nano /etc/grub.d/40_custom    # Adding the password to GRUB Custom Rules
+				    # appending the following lines to the bottom of the file				 
+				    # set superusers="MY-USERNAME"
+				      password_pbkdf2 "MY-USERNAME grub.pkdf2.sha512.10000.MY_ACTUAL_HASH_STRING
 
+$sudo nano /etc/grub.d/10_linux     # Prevent Password Prompts on Normal Boots
+                                    # Adding `--unrestricted` inside the line (echo "menuentry '$(echo "$os" | grub_quote)' ${CLASS} \$menuentry_id_option ...")
+				    # right before `${CLASS}`
 
-`Now if I want to edit GRUB while on boot I will be prompted to enter my username and password, instead of anyone being able to edit GRUB`
+$sudo update-grub                   # To apply changes
+
+"Now if I want to edit GRUB while on boot I will be prompted to enter my username and password, instead of anyone being able to edit GRUB"
 </pre>
 
 Second one:
 
 <pre>
-...In Progress
+$sudo apt install rkhunter	# To install rkhunter(rkhunter scans for rootkits, backdoors, and local exploits by comparing SHA-256 hashes of core system binaries against a known good database)
+$sudo rkhunter --propupd	# Tells rkhunter my current system files are safe (baseline)
+$sudo apt rkhunter --update	# Updates virus/rootkit definitions
+$sudo rkhunter --check -sk	# To run a scan (The --sk flag skips the "press Enter to continue" prompts between sections)
+
+"Now I have a malware scanner on my machine"
 </pre>
 
 Third one:
