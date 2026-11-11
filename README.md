@@ -40,7 +40,7 @@ one.
 | TICKET-010 | Database Backup/Restore Drill | PostgreSQL | Completed |
 | TICKET-011 | NFS File Share | File sharing | Completed |
 | TICKET-012 | Monitoring Stack | Prometheus/Grafana | Completed |
-| TICKET-013 | Security Audit | Lynis hardening | Not started |
+| TICKET-013 | Security Audit | Lynis hardening | Completed |
 | TICKET-014 | Log Centralization | rsyslog | Not started |
 | TICKET-015 | (reserved / optional deep-dive) | — | Not started |
 | TICKET-016 | Ansible Automation | Ansible | Not started |

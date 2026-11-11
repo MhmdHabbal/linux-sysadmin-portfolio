@@ -2,7 +2,7 @@
 
 **Status:** Resolved  
 **Environment:** Ubuntu 26.04 LTS, VirtualBox VM, 2 vCPU / 2GB RAM, connecting from a WSL (Ubuntu) host on Windows  
-**Date:** 10/-/2026  
+**Date:** 10/11/2026  
 **Skills practiced:** Prometheus, Grafana, monitoring, VM
 
 ## 1. Problem Statement
@@ -59,25 +59,38 @@ $sudo rkhunter --check -sk	# To run a scan (The --sk flag skips the "press Enter
 Third one:
 
 <pre>
-...In Progress
+$systemd-analyzer security		# Built-in `systemd` security analyzer to see which services are exposed.
+$systemd-analyze security SERVICE_NAME	# Inspecting a specific service
+$sudo systemctl edit SERVICE_NAME	# Opening the override editor for the chosen service
+					# Adding the hardning rules under the `[Service]` header inside the editor
+$sudo systemctl daemon-reload		# Reloading the systemd daemon
+$sudo systemctl restart SERVICE_NAME	# Restarting the service
+$sudo systemctl status SERVICE_NAME	# Checking if the service is active and healthy
 </pre>
 
 Fourth one:
 
 <pre>
-...In Progress
+$sudo nano /etc/login.defs		# Opening the login configuration file
+					# Changing PASS_MIN_DAYS from `0` to `1` (or above for stricter security)
+$sudo chage -m 1 `username`		# Applying the rule to existing users because the new rule only affects future user accounts
+$sudo chage -l `username`		# Verfying the change
 </pre>
 
 Fifth one:
 
 <pre>
-...In Prgress
+$sudo nano /etc/login.defs		# Opening the login configuration file
+					# Changing PASS_MAX_DAYS from `99999` to `90` (or 180 for a less frequent rotation)
+$sudo chage -M 90 `username`		# Applying the rule to existing users because the new rule only affects future user accounts
+$sudo chage -l `username`		# Verifying the change
 </pre>
 
 ## 5. Verification
 
 <pre>
-...In Progress
+After running `$sudo lynis audit system` I confirmed that the five suggestions that were given before from lynis
+are resolved, and my machine's score on lynis is now higher.
 </pre>
 
 ## 6. Prevention
